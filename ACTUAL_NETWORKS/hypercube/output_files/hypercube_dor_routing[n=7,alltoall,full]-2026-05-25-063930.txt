@@ -1,0 +1,98 @@
+date and time / elapsed time               : 06:39am 25 May 2026 / 14 seconds
+
+interconnection network                    : hypercube [n=7]
+routing algorithm                          : hypercube_dor_routing [mode=full]
+notes                                      : -
+
+fault seeds                                : [2995164800,417260147,3660115444,2917936704,158073910,682483139,1001988406,3857796330]
+traffic pattern seeds                      : [2995149100,424313707,3629173526,818966546,1799019583,1266190813,3352481675,1148394404]
+routing seeds                              : [2995133600,1956963328,3230922337,452574546,3391872435,1992518808,2784815235,2140919962]
+miscellaneous seeds                        : [2972150600,1352893185,1545905641,1425969557,709943250,3304628360,2270640777,3475856164]
+
+fault descriptions:
+
+input fault files:
+
+traffic patterns:
+- traffic pattern # 1                      : alltoall (1 iterations)
+  start-source                             : pr0   (  0) [0,0,0,0,0,0,0]
+  end-source                               : pr127 (127) [1,1,1,1,1,1,1]
+  start-destination                        : pr0   (  0) [0,0,0,0,0,0,0]
+  end-destination                          : pr127 (127) [1,1,1,1,1,1,1]
+
+----------------------------------------
+
+OVERALL RESULTS
+
+LATENCY:
+total number of routes generated           : 16384
+successful routes                          : 16384
+failed routes                              : 0
+percentage successful                      : 100.00%
+minimum hop-length                         : 0
+maximum hop-length                         : 7
+average hop-length                         : 3.50
+ - standard deviation                      : 1.32
+ - coefficient of variation                : 0.38
+median hop-length                          : 3.50
+
+NODE LOADS:
+minimum node load - pr                     : 321
+maximum node load - pr                     : 321
+average node load - pr                     : 321.00
+ - standard deviation - pr                 : 0.00
+ - coefficient of variation - pr           : 0.00
+median node load - pr                      : 321.00
+sum of node loads - pr                     : 41088
+
+CHANNEL LOADS:
+minimum channel load - prpr                : 64
+maximum channel load - prpr                : 64
+average channel load - prpr                : 64.00
+ - standard deviation - prpr               : 0.00
+ - coefficient of variation - prpr         : 0.00
+median channel load - prpr                 : 64.00
+sum of channel loads - prpr                : 57344
+
+----------------------------------------
+
+*** GLOBAL VARIABLES SET IN CONFIG ***
+
+<INTERCONNECTION NETWORK>
+ name                                     : hypercube
+ param names                              : [n]
+ param values                             : [7]
+
+<ROUTING ALGORITHM>
+ name                                     : hypercube_dor_routing
+ mode                                     : full
+
+<TRAFFIC PATTERN>
+ interim traffic patterns:
+  [alltoall, 1, 1]<100%>{default;default;default;default}
+ expanded traffic patterns:
+  batch 0:
+   [alltoall, 1, 0, 127, 0, 127]
+
+<ENVIRONMENT>
+ view_routes                              : all
+ view_int_net_with_faults                 : false
+
+<FAULT>
+ fault_check                              : post
+ output_fault_file                        : true
+ sort_faults                              : true
+
+<LATENCY>
+
+<BANDWIDTH>
+
+<PACKET>
+
+<NOTES>
+
+REGISTRY
+ registry_note                            : Q_n has diameter n. Q_n has bisection width 2^{n-1}.
+ net_machine                              : supercom
+ net_type                                 : cartesian
+ net_build                                : symmetric

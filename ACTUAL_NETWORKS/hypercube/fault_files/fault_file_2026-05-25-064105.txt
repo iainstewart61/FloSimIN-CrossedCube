@@ -1,0 +1,17 @@
+Fault file created at 06:41am 25 May 2026 for hypercube [n=7]
+
+These faults were made by imposing the faults in the following descriptions:
+ - <channel,30%,0,"*","*"> with intended number of faults 268
+The total numbers of faults set are:
+ faulty nodes: 0
+ faulty channels: 268
+  - 268 processor-processor faults
+Fault seeds: [348395904,1322700370,2324921133,199692088,46764899,841820038,324891357,3616986909]
+Time to impose faults: 0 seconds
+
+<NODE>
+<CHANNEL>
+pr0-1,pr0-2,pr0-4,pr0-6,pr1-0,pr1-1,pr1-4,pr2-2,pr2-6,pr3-4,pr4-2,pr4-6,pr5-0,pr6-1,pr6-2,pr6-5,pr7-2,pr8-0,pr8-1,pr8-5,pr8-6,pr9-0,pr9-4,pr9-6,pr10-4,pr10-5,pr11-0,pr11-1,pr11-6,pr12-4,pr13-6,pr14-1,pr14-3,pr14-5,pr14-6,pr15-2,pr16-6,pr17-0,pr17-4,pr18-0,pr18-1,pr19-0,pr19-3,pr19-6,pr20-4,pr20-5,pr22-6,pr23-2,pr24-3,pr24-5,pr26-1,pr26-2,pr26-4,pr27-0,pr27-1,pr27-2,pr27-3,pr27-5,pr29-1,pr29-3,pr29-4,pr30-6,pr31-0,pr31-1,pr31-4,pr31-6,pr32-3,pr33-2,pr34-1,pr35-1,pr35-2,pr35-3,pr35-5,pr36-1,pr36-5,pr37-0,pr38-1,pr38-2,pr38-5,pr39-3,pr39-6,pr40-2,pr41-0,pr41-5,pr41-6,pr42-2,pr43-0,pr43-2,pr43-3,pr43-5,pr44-2,pr44-4,pr45-6,pr46-3,pr46-5,pr47-2,pr47-6,pr48-5,pr49-0,pr49-1,pr49-3,pr49-4,pr50-2,pr50-3,pr50-6,pr51-1,pr51-2,pr51-3,pr52-5,pr52-6,pr53-2,pr53-3,pr53-5,pr54-2,pr54-5,pr55-0,pr55-3,pr55-4,pr57-0,pr57-2,pr58-5,pr59-0,pr59-1,pr60-1,pr60-5,pr61-0,pr61-3,pr61-4,pr61-6,pr62-2,pr63-6,pr64-0,pr64-4,pr64-5,pr65-1,pr65-3,pr65-6,pr66-0,pr66-5,pr66-6,pr67-0,pr67-2,pr67-5,pr67-6,pr68-5,pr68-6,pr69-2,pr69-4,pr69-6,pr70-3,pr70-5,pr70-6,pr71-1,pr72-2,pr72-5,pr72-6,pr73-1,pr73-2,pr73-3,pr74-5,pr75-1,pr75-5,pr75-6,pr76-0,pr76-5,pr78-1,pr79-0,pr79-5,pr79-6,pr80-3,pr80-6,pr81-1,pr81-3,pr82-2,pr82-3,pr82-6,pr83-0,pr84-3,pr85-5,pr85-6,pr86-1,pr87-1,pr87-3,pr88-3,pr88-6,pr89-4,pr90-0,pr90-1,pr90-4,pr91-2,pr92-0,pr92-2,pr92-3,pr93-0,pr93-1,pr93-3,pr93-6,pr94-1,pr94-2,pr95-2,pr96-1,pr96-5,pr97-6,pr98-4,pr98-6,pr99-2,pr99-4,pr100-0,pr100-5,pr100-6,pr101-0,pr101-2,pr101-3,pr102-5,pr103-5,pr103-6,pr104-5,pr105-1,pr105-6,pr106-4,pr106-5,pr106-6,pr107-0,pr107-6,pr108-3,pr108-4,pr108-5,pr108-6,pr109-1,pr109-3,pr110-1,pr110-2,pr110-5,pr111-5,pr111-6,pr112-0,pr112-1,pr112-3,pr112-5,pr114-3,pr114-5,pr114-6,pr115-1,pr115-2,pr115-3,pr115-4,pr115-6,pr116-0,pr116-3,pr117-0,pr117-3,pr118-0,pr118-1,pr118-3,pr118-5,pr118-6,pr119-0,pr119-1,pr120-6,pr121-1,pr121-6,pr122-0,pr122-3,pr122-4,pr122-5,pr125-1,pr126-0,pr127-6
+
+Time to process and write faults: 0 seconds
+<END OF FILE>

@@ -1,0 +1,36 @@
+<INTERCONNECTION NETWORK>
+name = crossedcube
+params = [n = 12]
+seeds = [2504206484,3730188592,2075263635,2739094808,4225477486,1733411942,2489788949,4145632597]
+
+<ROUTING ALGORITHM>
+name = crossedcube_ChangSungHsu
+mode = nondet
+nondet_repeat = 1
+seeds = [2504236084,2973324765,1971971369,298145925,1844353238,2562979146,3524624916,3288724874]
+
+<TRAFFIC PATTERN>
+[alltoall, 1, 5]
+seeds = [2504251384,2846414105,3714617672,3311062785,4197917918,2634605480,3968083771,396719451]
+
+<ENVIRONMENT>
+suppress_tps = false
+
+<FAULT>
+#[channel]<5%>
+fault_check = interim_at_end
+input_fault_files = [fault_file_CC12_5pc_chan_A, fault_file_CC12_5pc_chan_B, fault_file_CC12_5pc_chan_C, fault_file_CC12_5pc_chan_D, fault_file_CC12_5pc_chan_E]
+seeds = [2504266684,3519398094,1675696574,1062927453,2325061303,3295038678,3962304217,2903114009]
+
+<END OF FILE>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,286 @@
+date and time / elapsed time               : 01:13am 20 Jun 2026 / 2 hours 23 minutes 42 seconds
+
+interconnection network                    : crossedcube [n=12]
+routing algorithm                          : crossedcube_Stewart [mode=full]
+notes                                      : -
+
+fault seeds                                : [3994324480,1561839585,1379814007,2984281802,3192643192,3040670611,2099181085,1349781795]
+traffic pattern seeds                      : [3994308480,331540233,3394831776,2160531391,350108251,1592827388,3607542972,3449201511]
+routing seeds                              : [3994292880,3456474050,3413868110,2476214662,250736674,1368919719,1582225868,2569347205]
+miscellaneous seeds                        : [3994255380,1087897580,3920447175,2382288153,3993934946,3028957235,3763781175,3660477413]
+
+fault descriptions:
+
+input fault files:
+ - input fault file #1                     : fault_file_CC12_20pc_node_A.txt
+ - input fault file #2                     : fault_file_CC12_20pc_node_B.txt
+ - input fault file #3                     : fault_file_CC12_20pc_node_C.txt
+ - input fault file #4                     : fault_file_CC12_20pc_node_D.txt
+ - input fault file #5                     : fault_file_CC12_20pc_node_E.txt
+
+traffic patterns:
+- traffic pattern #1                       : alltoall (1 iterations)
+  start-source                             : pr0    (   0) [0,0,0,0,0,0,0,0,0,0,0,0]
+  end-source                               : pr4095 (4095) [1,1,1,1,1,1,1,1,1,1,1,1]
+  start-destination                        : pr0    (   0) [0,0,0,0,0,0,0,0,0,0,0,0]
+  end-destination                          : pr4095 (4095) [1,1,1,1,1,1,1,1,1,1,1,1]
+- traffic pattern #2                       : alltoall (1 iterations)
+  start-source                             : pr0    (   0) [0,0,0,0,0,0,0,0,0,0,0,0]
+  end-source                               : pr4095 (4095) [1,1,1,1,1,1,1,1,1,1,1,1]
+  start-destination                        : pr0    (   0) [0,0,0,0,0,0,0,0,0,0,0,0]
+  end-destination                          : pr4095 (4095) [1,1,1,1,1,1,1,1,1,1,1,1]
+- traffic pattern #3                       : alltoall (1 iterations)
+  start-source                             : pr0    (   0) [0,0,0,0,0,0,0,0,0,0,0,0]
+  end-source                               : pr4095 (4095) [1,1,1,1,1,1,1,1,1,1,1,1]
+  start-destination                        : pr0    (   0) [0,0,0,0,0,0,0,0,0,0,0,0]
+  end-destination                          : pr4095 (4095) [1,1,1,1,1,1,1,1,1,1,1,1]
+- traffic pattern #4                       : alltoall (1 iterations)
+  start-source                             : pr0    (   0) [0,0,0,0,0,0,0,0,0,0,0,0]
+  end-source                               : pr4095 (4095) [1,1,1,1,1,1,1,1,1,1,1,1]
+  start-destination                        : pr0    (   0) [0,0,0,0,0,0,0,0,0,0,0,0]
+  end-destination                          : pr4095 (4095) [1,1,1,1,1,1,1,1,1,1,1,1]
+- traffic pattern #5                       : alltoall (1 iterations)
+  start-source                             : pr0    (   0) [0,0,0,0,0,0,0,0,0,0,0,0]
+  end-source                               : pr4095 (4095) [1,1,1,1,1,1,1,1,1,1,1,1]
+  start-destination                        : pr0    (   0) [0,0,0,0,0,0,0,0,0,0,0,0]
+  end-destination                          : pr4095 (4095) [1,1,1,1,1,1,1,1,1,1,1,1]
+
+----------------------------------------
+
+OVERALL RESULTS
+
+LATENCY:
+total number of routes generated           : 83886080
+successful routes                          : 50580259
+failed routes                              : 33305821
+percentage successful                      : 60.30%
+minimum hop-length                         : 0
+maximum hop-length                         : 7
+average hop-length                         : 4.88
+ - standard deviation                      : 1.15
+ - coefficient of variation                : 0.24
+median hop-length                          : 5.00
+
+NODE LOADS:
+minimum node load - pr                     : 1644
+maximum node load - pr                     : 20756
+average node load - pr                     : 11991.88
+ - standard deviation - pr                 : 2896.92
+ - coefficient of variation - pr           : 0.24
+median node load - pr                      : 12100.00
+sum of node loads - pr                     : 196487032
+
+CHANNEL LOADS:
+minimum channel load - prpr                : 0
+maximum channel load - prpr                : 3716
+average channel load - prpr                : 1256.49
+ - standard deviation - prpr               : 786.44
+ - coefficient of variation - prpr         : 0.63
+median channel load - prpr                 : 1320.00
+sum of channel loads - prpr                : 247050906
+
+INDIVIDUAL TRAFFIC PATTERN #1
+
+LATENCY:
+total number of routes generated           : 16777216
+successful routes                          : 10121969
+failed routes                              : 6655247
+percentage successful                      : 60.33%
+minimum hop-length                         : 0
+maximum hop-length                         : 7
+average hop-length                         : 4.88
+ - standard deviation                      : 1.15
+ - coefficient of variation                : 0.24
+median hop-length                          : 5.00
+
+NODE LOADS:
+minimum node load - pr                     : 2407
+maximum node load - pr                     : 20756
+average node load - pr                     : 11998.87
+ - standard deviation - pr                 : 2872.25
+ - coefficient of variation - pr           : 0.24
+median node load - pr                      : 12151.00
+sum of node loads - pr                     : 39320284
+
+CHANNEL LOADS:
+minimum channel load - prpr                : 0
+maximum channel load - prpr                : 3474
+average channel load - prpr                : 1257.22
+ - standard deviation - prpr               : 785.02
+ - coefficient of variation - prpr         : 0.62
+median channel load - prpr                 : 1316.00
+sum of channel loads - prpr                : 49438976
+
+INDIVIDUAL TRAFFIC PATTERN #2
+
+LATENCY:
+total number of routes generated           : 16777216
+successful routes                          : 10104213
+failed routes                              : 6673003
+percentage successful                      : 60.23%
+minimum hop-length                         : 0
+maximum hop-length                         : 7
+average hop-length                         : 4.89
+ - standard deviation                      : 1.15
+ - coefficient of variation                : 0.24
+median hop-length                          : 5.00
+
+NODE LOADS:
+minimum node load - pr                     : 1644
+maximum node load - pr                     : 20200
+average node load - pr                     : 11980.09
+ - standard deviation - pr                 : 2909.68
+ - coefficient of variation - pr           : 0.24
+median node load - pr                      : 12114.00
+sum of node loads - pr                     : 39258750
+
+CHANNEL LOADS:
+minimum channel load - prpr                : 0
+maximum channel load - prpr                : 3506
+average channel load - prpr                : 1255.21
+ - standard deviation - prpr               : 787.31
+ - coefficient of variation - prpr         : 0.63
+median channel load - prpr                 : 1322.00
+sum of channel loads - prpr                : 49359686
+
+INDIVIDUAL TRAFFIC PATTERN #3
+
+LATENCY:
+total number of routes generated           : 16777216
+successful routes                          : 10100357
+failed routes                              : 6676859
+percentage successful                      : 60.20%
+minimum hop-length                         : 0
+maximum hop-length                         : 7
+average hop-length                         : 4.89
+ - standard deviation                      : 1.15
+ - coefficient of variation                : 0.24
+median hop-length                          : 5.00
+
+NODE LOADS:
+minimum node load - pr                     : 2536
+maximum node load - pr                     : 20102
+average node load - pr                     : 11976.63
+ - standard deviation - pr                 : 2894.61
+ - coefficient of variation - pr           : 0.24
+median node load - pr                      : 12058.00
+sum of node loads - pr                     : 39247426
+
+CHANNEL LOADS:
+minimum channel load - prpr                : 0
+maximum channel load - prpr                : 3716
+average channel load - prpr                : 1254.82
+ - standard deviation - prpr               : 788.43
+ - coefficient of variation - prpr         : 0.63
+median channel load - prpr                 : 1315.00
+sum of channel loads - prpr                : 49344506
+
+INDIVIDUAL TRAFFIC PATTERN #4
+
+LATENCY:
+total number of routes generated           : 16777216
+successful routes                          : 10138147
+failed routes                              : 6639069
+percentage successful                      : 60.43%
+minimum hop-length                         : 0
+maximum hop-length                         : 7
+average hop-length                         : 4.88
+ - standard deviation                      : 1.15
+ - coefficient of variation                : 0.24
+median hop-length                          : 5.00
+
+NODE LOADS:
+minimum node load - pr                     : 2538
+maximum node load - pr                     : 20718
+average node load - pr                     : 12014.52
+ - standard deviation - pr                 : 2862.38
+ - coefficient of variation - pr           : 0.24
+median node load - pr                      : 12124.00
+sum of node loads - pr                     : 39371568
+
+CHANNEL LOADS:
+minimum channel load - prpr                : 0
+maximum channel load - prpr                : 3601
+average channel load - prpr                : 1258.94
+ - standard deviation - prpr               : 783.87
+ - coefficient of variation - prpr         : 0.62
+median channel load - prpr                 : 1324.00
+sum of channel loads - prpr                : 49506438
+
+INDIVIDUAL TRAFFIC PATTERN #5
+
+LATENCY:
+total number of routes generated           : 16777216
+successful routes                          : 10115573
+failed routes                              : 6661643
+percentage successful                      : 60.29%
+minimum hop-length                         : 0
+maximum hop-length                         : 7
+average hop-length                         : 4.88
+ - standard deviation                      : 1.15
+ - coefficient of variation                : 0.24
+median hop-length                          : 5.00
+
+NODE LOADS:
+minimum node load - pr                     : 2667
+maximum node load - pr                     : 20153
+average node load - pr                     : 11989.32
+ - standard deviation - pr                 : 2944.81
+ - coefficient of variation - pr           : 0.25
+median node load - pr                      : 12049.00
+sum of node loads - pr                     : 39289004
+
+CHANNEL LOADS:
+minimum channel load - prpr                : 0
+maximum channel load - prpr                : 3465
+average channel load - prpr                : 1256.26
+ - standard deviation - prpr               : 787.55
+ - coefficient of variation - prpr         : 0.63
+median channel load - prpr                 : 1322.00
+sum of channel loads - prpr                : 49401300
+
+----------------------------------------
+
+*** GLOBAL VARIABLES SET IN CONFIG ***
+
+<INTERCONNECTION NETWORK>
+ name                                     : crossedcube
+ param names                              : [n]
+ param values                             : [12]
+
+<ROUTING ALGORITHM>
+ name                                     : crossedcube_Stewart
+ mode                                     : full
+
+<TRAFFIC PATTERN>
+ interim traffic patterns:
+  [alltoall, 1, 5]<100%>{default;default;default;default}
+ expanded traffic patterns:
+  batch 0:
+   [alltoall, 1, 0, 4095, 0, 4095]
+   [alltoall, 1, 0, 4095, 0, 4095]
+   [alltoall, 1, 0, 4095, 0, 4095]
+   [alltoall, 1, 0, 4095, 0, 4095]
+   [alltoall, 1, 0, 4095, 0, 4095]
+
+<ENVIRONMENT>
+ suppress_tps                             : false
+
+<FAULT>
+ fault_check                              : interim_at_end
+ input_fault_files                        : [fault_file_CC12_20pc_node_A.txt,fault_file_CC12_20pc_node_B.txt,fault_file_CC12_20pc_node_C.txt,fault_file_CC12_20pc_node_D.txt,fault_file_CC12_20pc_node_E.txt]
+ suffix                                   : 20pc_node_collected
+
+<LATENCY>
+
+<BANDWIDTH>
+
+<PACKET>
+
+<NOTES>
+
+REGISTRY
+ registry_note                            : CC_n has diameter \lceil n+1/2 \rceil.
+ net_machine                              : supercom
+ net_type                                 : cartesian
+ net_build                                : symmetric

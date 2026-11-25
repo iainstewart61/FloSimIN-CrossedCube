@@ -1,0 +1,13 @@
+<INTERCONNECTIONNETWORK/ROUTINGALGORITHM>
+hypercube[n, supercom, cartesian, symmetric]<hypercube_dor_routing>
+crossedcube[n, supercom, cartesian, symmetric]<crossedcube_Efe, crossedcube_ChangSungHsu, crossedcube_Stewart, crossedcube_OtakeMouriKanedo_1>
+
+<TRAFFICPATTERN>
+random, permutation, alltoall
+
+<NOTES>
+hypercube = Q_n has diameter n. Q_n has bisection width 2^{n-1}.
+crossedcube = CC_n has diameter \lceil n+1/2 \rceil.
+
+<ENDOFFILE>
+
